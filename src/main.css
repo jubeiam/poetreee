@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+#app {
+    position: relative;
+    height: 2000px;
+    width: 2000px;
+    /* overflow: hidden; */
+    background-color: #fafafa;
+}
+
+.node {
+    position: relative;
+}
+
+.tree-group {
+    position: relative;
+}
+
+tree-icon {
+    display: inline-block;
+}
+
+.skill {
+    border-radius: 50%;
+    border: none;
+    box-shadow: inset 0px 0px 2px 1px black, inset 0px 0px 2px 2px gold, inset 0px 0px 1px 3px black;
+}
+
+tree-icon[active="true"] .skill {
+    border: none;
+    box-shadow: inset 0px 0px 2px 1px black, inset 0px 0px 0px 2px gold, inset 0px 0px 1px 3px black;
+}
+
+/* 
+.skills-1,
+.skills-2,
+.skills-3 {
+    display: none;
+}
+
+.skills-disabled-0,
+.skills-disabled-1,
+.skills-disabled-2,
+.skills-disabled-3 {
+    display: none;
+}
+
+.groups-1,
+.groups-2,
+.groups-3 {
+    display: none
+} */
+
+.tree-group-orbit-0 {
+    position: absolute;
+
+    background: rgba(100, 0, 0, 0.5);
+}
+
+.tree-group-orbit-2 {
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.tree-group-orbit-4 {
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    width: 200px;
+    height: 200px;
+
+    background: rgba(0, 100, 0, 0.5);
+}
+
+.tree-group-orbit-6 {
+    position: absolute;
+    left: -200px;
+    top: -200px;
+    width: 400px;
+    height: 400px;
+
+    background: rgba(0, 0, 100, 0.5);
+}
+
+
+
+
+
+/* .sprite.skills {
+    background: url(/data/assets/skills-1.jpg) no-repeat;
+    background-size: 550px 681px;
+}
+
+.sprite.skills {
+    background: url(/data/assets/skills-2.jpg) no-repeat;
+    background-size: 770px 945px;
+}
+
+.sprite.skills {
+    background: url(/data/assets/skills-3.jpg) no-repeat;
+    background-size: 990px 1230px;
+} */
